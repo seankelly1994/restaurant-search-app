@@ -24,7 +24,7 @@ export default () => {
     // searchApi('pasta'); -- creates an infinite loop by causing it to re render
     // use the useEffect hook, when you only want to run code once
     useEffect(() => {
-        searchApi('pasta');
+        searchApi('pizza');
     }, []);
 
     return [searchApi, results, errorMessage];
